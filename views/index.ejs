@@ -1,0 +1,26 @@
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <title>QuotiongDojo</title>
+    </head>
+
+    <body>
+        <div id="display"> 
+            <h1>Welcome to QuotiongDojo</h1>
+        </div>
+        <div class="form">
+            <form action="/quotes" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="quote">Your Quote:</label>
+                <textarea name="quote" id="quote" cols="40" rows="8"></textarea>
+                <button id="add">Add my quote</button>
+            </form>
+            <a href="/quotes"><button onclick=href>Skip to quotes!</button></a>
+        </div>
+    </body>
+
+</html>
